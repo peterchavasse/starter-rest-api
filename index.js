@@ -62,7 +62,7 @@ app.get('/:col', async (req, res) => {
 
 // Catch all handler for all other request.
 app.use('*', (req, res) => {
-  res.json({ msg: 'no route handler found 123' }).end()
+  res.json({ msg: 'no route handler found 1234' }).end()
 })
 
 // Start the server
